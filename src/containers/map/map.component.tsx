@@ -51,7 +51,7 @@ export default (props: MapComponent) => {
         <div>
             <div className={'map-wrapper'}>
                 <GoogleMapReact
-                    bootstrapURLKeys={{key: 'AIzaSyBRkj6z2M5D26oHmJalc0b-TAJZ2VjSKII'}}
+                    bootstrapURLKeys={{key: ""}}
                     center={props.center}
                     defaultCenter={defaultProps.center}
                     defaultZoom={12}
