@@ -1,0 +1,26 @@
+.container {
+  padding: 0 15px;
+}
+
+@mixin cityWrapper($width) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .city-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: $width;
+  }
+}
+
+.favorite-cities-wrapper {
+  @media screen and (min-width: 600px) {
+    @include cityWrapper(45%)
+  }
+  @media screen and (min-width: 900px) {
+    @include cityWrapper(33%)
+  }
+  @media screen and (min-width: 1200px) {
+    @include cityWrapper(24%)
+  }
+}
