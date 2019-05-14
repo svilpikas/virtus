@@ -1,0 +1,45 @@
+$yellow: rgb(232, 208, 36);
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.city-info-wrapper {
+  margin-bottom: 20px;
+
+  .city-info-header {
+    background-color: $yellow;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .city-info-content {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    text-transform: capitalize;
+  }
+
+  .city-content-headers {
+    width: 50%;
+  }
+
+}
+.map-wrapper {
+  height: 500px;
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.mt-15 {
+  margin-top: 15px;
+}

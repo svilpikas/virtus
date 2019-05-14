@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.scss';
+import SimpleMap from "./containers/map/map.container";
 
-const App: React.FC = () => {
-  return (
-    <h1>Hello</h1>
-  );
-};
+const App  = () => <SimpleMap />;
 
 export default App;
